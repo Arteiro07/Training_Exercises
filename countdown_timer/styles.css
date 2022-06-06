@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-image: url("./canyon.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: normal; 
+    margin-top: 13rem;
+}
+
+.countdown-container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.countdown-el{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+}
+
+.countdown-el span   {
+    font-size: 2 rem; 
+    font-weight: bold;
+}
